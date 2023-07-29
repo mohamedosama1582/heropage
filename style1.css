@@ -38,7 +38,7 @@ nav{
     margin-bottom: 0;
     font-family: 'Josefin Sans',sans-serif;
     font-weight: 900;
-    color:#eee5e5; 
+    color:#FDFEFE; 
 }
 
 .nav-link-bar{
@@ -55,7 +55,7 @@ nav{
 
 .nav-links{
     font-size: 2rem;
-    background: #f2f9f5;
+    background: #FDFEFE;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     margin:0;
@@ -95,7 +95,7 @@ nav{
   .hamburger{
 	width: 30px;
   	height: 5px;
-  	background:#eee5e5;
+  	background:#FDFEFE;
   	margin: 5px 0;
   	border-radius: 3px;
 }
@@ -104,33 +104,57 @@ nav{
 
 /* ======================frontpage===================== */
 .frontpage{
-    background:#ECF0F1;
-    width:100%; 
+     background: linear-gradient(234deg, rgba(186,74,0,1) 34%, rgba(220,118,51,1) 34%, rgba(220,118,51,1) 41%, rgba(220,118,51,1) 61%, rgba(30,45,60,1) 61%);
     overflow: hidden;
     height:150rem;
     font-family: 'REM', sans-serif;
 
 }
 
+.img2{
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    left:-9rem;
+    opacity: 60%;
+
+}
+
+#img2{
+    width:110%;
+    height:1024px;
+    /* border-radius:10% ; */
+}
+
+.heropage{
+    /* margin-top:-10rem; */
+    background:#1f1b1b;
+    height:64rem;
+   
+}
+
 .heropage1{
     width:100%;
-    height:auto;
+    height:fit-content;
     display:flex;
     align-items: flex-end;
     justify-content: space-evenly;
     position: relative;
-    top:10rem;
+    left:-10rem;
+    bottom:45rem;
+
 
 }
 
 .slogan{
-    width:70%;
+    width:50%;
     position:relative;
     align-self: flex-start;
-    color:#077EF4;
+    /* color:#077EF4; */
+    color:#FDFEFE;
     font-weight: 900;
     font-size:4rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
     line-height: 9rem;
     z-index: 1;
 }
@@ -138,12 +162,13 @@ nav{
 .highlight1{
     background: #161616;
     font-size: 4.5rem;
-    color:#F4F8F9; 
+    color:#FDFEFE;
     padding:10px;
     border-radius: 10px;
 }
 
 .img1{
+    display:none;
     position:relative;
     top:-10rem;
     background: #85C1E9;
@@ -157,12 +182,18 @@ nav{
 
 }
 
+#heropage2{
+    position:relative;
+    top:10.9rem;
+}
+
 .heropage2{
-    margin-top:15rem;
+    margin-top:-10rem;
     width: 100%;
     height:fit-content;
     display:flex;
     background: #4fa0f1;
+    /* background: #1ABC9C; */
     /* flex-direction: column; */
     justify-content: center;
 
@@ -174,7 +205,8 @@ nav{
     font-family: 'Geologica', sans-serif; 
     font-weight: 600;
     font-size: 2.2rem;
-    color:#d8e5f2;
+    color:#FDFEFE;
+    /* color: #021623; */
     position:relative;
     align-self:flex-start;
     padding-right:2rem;
@@ -187,6 +219,7 @@ nav{
     font-size:3.3rem ;
     color:#F4D03F;
 }
+
 .img5{
     border-radius: 30%;
     width:620px;
@@ -198,24 +231,23 @@ nav{
     margin:0;
     width:512px;
     height:512px;
-    position:relative;
     left:17rem;
     bottom:55rem;
     position: relative;
     z-index: 0;
     opacity: 20%;
-    background-position: center;
 }
 
 .analytic_btn{
     width:400px;
     height:90px;
-    color:hsl(180, 38%, 97%);
-    border:3px solid #212F3C;
-    background:#212F3C;
+    color:#0b0c0c;
+    border:3px solid #FDFEFE;
+    background:#FDFEFE;
     font-family: 'Geologica', sans-serif; 
     font-weight: 500;
     font-size:2rem ;
+    text-transform: capitalize;
     position:relative;
     /* position: static; */
     z-index: 0;
@@ -230,48 +262,37 @@ nav{
 }
 
 .analytic_btn:hover{
-    color:hsl(196, 48%, 95%);
-    border:3px solid #efede9;
-    background: #4fa0f1;
+    color:#FDFEFE;
+    border:3px solid #0b0b0a;
+    background: #0b0b0c;
 }
 
 
 @media (max-width:1024px){
 
-.heropage1{
-    flex-direction: column;
+.heropage{
+        background:#1f1b1b;
+        height:44rem;
+       
+}
 
+#img2{
+        width:120%;
+        height:100%;
+        /* border-radius:10% ; */
+    
 }
 
 .slogan{
-    top:-3rem;
-    font-size:4rem;
-    width:60%;
+    top:9rem;
+    font-size:3.5rem;
+    width:50%;
     margin-bottom: 2rem;
-    /* line-height: 7rem; */
+    line-height: 7rem;
 }
 
 .highlight1{
-    font-size:4rem;
-}
-.img1{
-    background:#85C1E9 ;
-    top:-5rem;
-    right:-3rem;
-    width:37rem;
-    height:37rem;
-    border-top-left-radius:20%;
-    border-bottom-left-radius:20%;
-    border-top-right-radius:0px;
-    border-bottom-right-radius: 0px;
-}
-
-.img4{
-    width:250px;
-    height:250px;
-    bottom:135rem;
-    left:29rem;
-    opacity: 15%;
+    font-size:3.5rem;
 }
 
 .heropage2{
@@ -297,16 +318,31 @@ nav{
 }
 
 @media(max-width:768px){
-    .img4{
-        width:250px;
-        height:250px;
-        bottom:140rem;
-        left:10rem;
-        opacity: 15%;
+
+    .heropage1{
+        top:50rem;
+        height:33rem;
     }
+
+    .heropage1{
+        margin-left:3rem;
+    }
+
+    .slogan{
+        top:17.5rem;
+        font-size:2.6rem;
+        width:55%;
+        line-height: 5rem;
+    }
+
+    .highlight1{
+        font-size:2.6rem;
+    }
+
     .heropage2{
         height:50rem;
     }
+
     .analytic_btn{
         position: relative;
         top:-8.8rem;
@@ -314,6 +350,72 @@ nav{
         left:18rem;
     
     }
-}
+
+    @media(max-width:426px){
+        
+        .img2{
+            background-position: center;
+            position: relative;
+            z-index: 1;
+            left:-16rem;
+            opacity: 60%;
+        
+        }
+        #img2{
+            width:900px;
+            height:700px;
+        }
+       
+        .heropage1{
+            top:-54rem;
+        }
+    
+        .slogan{
+            margin-left:7rem;
+            font-size:2rem;
+            width:70%;
+            line-height: 4.5rem;
+        }
+    
+        .highlight1{
+            font-size:2rem;
+        }
+        
+        .slogan_about{
+            margin-top:10rem;
+            font-size:2rem;
+            text-align:start;
+            width:90%;
+            order:-1;
+            padding-right:3rem;
+        }
+        
+        #img5{
+          position:relative;
+          right:-.5rem;
+          top:-9.5rem;
+        }
+      
+        .highlight2{
+            font-size:2.5rem;
+        }
+    
+        .heropage2{
+            height:65rem;
+        }
+    
+        .analytic_btn{
+            position: relative;
+            top:-10rem;
+            z-index: 1;
+            left:1rem;
+            font-size:1.6rem;
+            font-weight: 650;
+            padding: 0;
+
+        
+        }
+    }
+} 
 
 
