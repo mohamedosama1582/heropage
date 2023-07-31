@@ -239,21 +239,21 @@ nav{
 }
 
 .analytic_btn{
-    width:400px;
-    height:90px;
+    width:350px;
+    height:70px;
     color:#ecf6f6;
-    border:3px solid #FDFEFE;
+    border:1px solid #1C2833;
     background:#1C2833;
     font-family: 'Geologica', sans-serif; 
-    font-weight: 500;
-    font-size:2rem ;
+    font-weight: 450;
+    font-size:1.3rem ;
     text-transform: capitalize;
     position:relative;
     /* position: static; */
     z-index: 0;
     top:-9rem;
     left:38rem;
-    padding:20px 50px;
+    padding:5px 50px;
     border-radius:80px;
     transition-property: all;
     transition-duration: 0.3s;
@@ -276,7 +276,7 @@ nav{
      
 .heropage{
         background:#1f1b1b;
-        height:44rem;
+        height:43.9rem;
        
 }
 
@@ -380,6 +380,7 @@ nav{
         margin-top:0rem;
         height:43.8rem;
         }
+
         .heropage1{
             top:-54rem;
         }
@@ -397,20 +398,25 @@ nav{
         }
         
         .slogan_about{
-            margin-top:10rem;
-            font-size:2rem;
+            margin-top:9rem;
+            font-size:1.9rem;
             text-align:start;
             width:90%;
             order:-1;
-            padding-right:3rem;
+            padding-right:.5rem;
         }
-        
+
+        .img5{
+          width:430px;
+          height:380px;
+          padding-left:10px;
+        }
+
         #img5{
-          /* width:300px;
-          height:300px; */
+          
           position:relative;
-          right:5.5rem;
-          top:-10.5rem;
+          right:3.5rem;
+          top:-7rem;
         }
       
         .highlight2{
@@ -419,18 +425,18 @@ nav{
     
         .heropage2{
            
-            height:65rem;
+            height:45rem;
         }
     
         .analytic_btn{
             position: relative;
             width:90%;
             height:60%;
-            top:-9rem;
+            top:-3.9rem;
             z-index: 1;
             left:1.3rem;
             font-size:1rem;
-            font-weight: 500;
+            font-weight: 600;
             padding: 10px 50px;
 
         
